@@ -9,6 +9,15 @@
 
 ---
 
+## [Unreleased]
+
+### Added
+
+- Offload V2 now exposes `POST /v2/offload/read-ref` for authenticated,
+  session-bound, token-limited recovery of tool results referenced by
+  compaction output. The endpoint supports optional substring and line-range
+  reads across both local and COS storage backends.
+
 ## [2.0.0-beta.1] — 2026-07-21
 
 首次公开发布。SemVer 从 `2.0.0-beta.1` 起步（npm 包名迁移到 `-v2` 后缀：

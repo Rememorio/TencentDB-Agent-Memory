@@ -1,5 +1,12 @@
 # Changelog — @tencentdb-agent-memory/memory-sdk-ts
 
+## Unreleased — 2026-07-23
+
+### Added
+
+- Exported `OffloadReadRefRequest` and `OffloadReadRefData` for
+  `POST /v2/offload/read-ref`.
+
 ## Unreleased — 2026-07-20
 
 ### Added

@@ -1,5 +1,13 @@
 # Changelog — tencentdb-agent-memory-sdk-python
 
+## Unreleased — 2026-07-23
+
+### Added
+
+- `MemoryClient.offload_read_ref(...)` and
+  `AsyncMemoryClient.offload_read_ref(...)` for bounded recovery through
+  `POST /v2/offload/read-ref`.
+
 ## Unreleased — 2026-07-20
 
 ### Added

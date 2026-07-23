@@ -27,6 +27,7 @@ export type {
   OffloadToolPair, OffloadRecentMessage,
   OffloadIngestRequest, OffloadIngestData,
   OffloadCompactRequest, OffloadCompactData, OffloadCompactReport,
+  OffloadReadRefRequest, OffloadReadRefData,
   OffloadQueryMmdRequest, OffloadQueryMmdData,
 } from "./types.js";
 
